@@ -9,6 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.4",
+    "@mui/lab": "^5.0.0-alpha.51",
+    "@mui/material": "^5.0.4",
+    "minecraft-server-util": "^3.6.1",
+    "moment": "^2.29.1",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
