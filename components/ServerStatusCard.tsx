@@ -2,6 +2,7 @@ import { Box, Card, CardActions, CardContent, CardMedia, Chip, Stack, Typography
 import { StatusResponse } from 'minecraft-server-util/dist/model/StatusResponse'
 import { LoadingButton } from '@mui/lab'
 import moment from 'moment'
+import { motdParser } from '@sfirew/mc-motd-parser'
 
 export interface Props {
   serverStatus: StatusResponse
@@ -33,7 +34,7 @@ export default function ServerStatusCard({ serverStatus, displayName, refreshing
           mb={ 1 }
           variant="body2"
           color="text.secondary"
-        >{ serverStatus.description?.descriptionText }</Typography>
+        >{ motdParser.cleanTags(serverStatus.description?.descriptionText ?? '') }</Typography>
 
         <Box mb={ 1 }>
           <Typography component={ 'span' }>Players: </Typography>

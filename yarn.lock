@@ -477,6 +477,11 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.0.8.tgz#be3e914e84eacf16dbebd311c0d0b44aa1174c64"
   integrity sha512-ZK5v4bJwgXldAUA8r3q9YKfCwOqoHTK/ZqRjSeRXQrBXWouoPnS4MQtgC4AXGiiBuUu5wxrRgTlv0ktmM4P1Aw==
 
+"@sfirew/mc-motd-parser@^1.0.4-1":
+  version "1.0.4-1"
+  resolved "https://registry.yarnpkg.com/@sfirew/mc-motd-parser/-/mc-motd-parser-1.0.4-1.tgz#619b2e2a4cbf1fbfeed24ff61b5f73d71b2bbd1d"
+  integrity sha512-0sMoE/pJI3uojDjxBYGLX1XGX0STQyPW5Xt4rZrP1mtEpmcpoXmx/QqVujN5Veagofkaou9k/dmi7PK/1rRtaw==
+
 "@types/json5@^0.0.29":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
